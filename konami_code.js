@@ -21,10 +21,12 @@ function onKeyDownHandler(e) {
     console.log(key + " pressed.");
     index++;
 
+    if (index > codes.length) {
+      alert("Wrong sequence!");
+    }
+
     if (index === codes.length) {
       alert("Hurray!");
-
-      index = 0;
     }
   } else {
     console.log(key + " wrongly pressed.");
