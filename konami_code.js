@@ -26,11 +26,11 @@ function onKeyDownHandler(e) {
     }
 
     if (index === codes.length) {
-      alert("Hurray!");
+      window.alert("Hurray!");
     }
   } else {
     console.log(key + " wrongly pressed.");
-    alert("Wrong sequence!");
+    window.alert("Wrong sequence!");
   }
 }
 
