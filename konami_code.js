@@ -27,6 +27,7 @@ function onKeyDownHandler(e) {
       index = 0;
     }
   } else {
+    console.log(key + " wrongly pressed.");
     alert("Wrong sequence!");
     index = 0;
   }
