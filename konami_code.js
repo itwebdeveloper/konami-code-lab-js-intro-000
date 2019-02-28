@@ -33,5 +33,5 @@ function onKeyDownHandler(e) {
 }
 
 function init() {
-  // your code here
+  onKeyDownHandler();
 }
