@@ -33,5 +33,5 @@ function onKeyDownHandler(e) {
 }
 
 function init() {
-  document.addEventListener('click',onKeyDownHandler);
+  document.body.addEventListener('click',onKeyDownHandler);
 }
