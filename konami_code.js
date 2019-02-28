@@ -17,7 +17,7 @@ let index = 0;
 // This is the function that would be invoked by the event listener.
 function onKeyDownHandler(e) {
   const key = e.key;
-
+  console.log(key + " pressed.");
   if (key === codes[index]) {
     index++;
 
